@@ -27,7 +27,7 @@ class AllUsersVC: UIViewController, UITableViewDelegate,UITableViewDataSource {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         self.navigationController?.navigationBar.backgroundColor = UIColor.red
-        self.title = "Emplpyees"
+        self.title = "Employees"
         let rightButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(self.addBarButtonAction(barButton:)))
         navigationItem.rightBarButtonItem = rightButton
         mainTableView.reloadData()
