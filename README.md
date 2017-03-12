@@ -7,5 +7,6 @@ First data is stored into coredata model and after will be displayed on screen.
 
 
 Data saved on mlab
+
 ![mlab_data_employee](https://cloud.githubusercontent.com/assets/14101763/23835827/555d735a-0744-11e7-9dac-832308f2768a.png)
 
